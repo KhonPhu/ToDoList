@@ -8,8 +8,19 @@
 
 > cordova plugin add cordova-plugin-camera
 
+# Cordova requirements
 
-# index.html
+> Java JDK: installed 1.8.0
+
+> Android SDK: installed true
+
+> Android target: installed android-29,android-28
+
+> Gradle: installed C:\Program Files\Android\Android Studio\gradle\gradle-5.1.1\bin\gradle
+
+# Index files
+
+**index.html**
 
 ```html
 
@@ -73,7 +84,7 @@
 
 ```
 
-# index.js
+**index.js**
 
 ```javascript
 
@@ -208,7 +219,7 @@ function removeProjectFromLocalStorage() {
 ```
 
 
-# index.css
+**index.css**
 
 ```css
 
