@@ -4,7 +4,7 @@
 
 > cordova plugin add cordova-plugin-dialogs
 
-**For camera use **
+**For camera use**
 
 > cordova plugin add cordova-plugin-camera
 
