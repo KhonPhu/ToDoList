@@ -1,8 +1,12 @@
 # Cordova Plugin use
 
+** For dialogs pop-up**
+
 > cordova plugin add cordova-plugin-dialogs
 
-> cordova plugin add cordova-plugincamera
+** For camera use **
+
+> cordova plugin add cordova-plugin-camera
 
 
 # index.html
