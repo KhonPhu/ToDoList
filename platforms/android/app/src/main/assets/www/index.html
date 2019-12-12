@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+
+        <h2 style="margin:5px">My List</h2>
+
+        <!-- Profile Image -->
+        <div>
+            <button id="profileImage"><img id="myImage" src="img/dummy-image.png"></button>
+        </div>
+
+        <br>
+
+        <!-- Input field and add button -->
+        <div>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+    </div>
+
+    <!-- Example List -->
+    <ul id="myUL">
+        
+    </ul>
+
+    <br>
+
+    <div>
+        <span id="saveData" class="saveBtn">Save</span>
+    </div>
+
+    <div>   
+        <span id="removeItem" class="resetBtn">Reset List</span>
+        <span id="show" class="loadBtn">Load</span>
+    </div>
+
+    <div>
+        
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+</body>
+
+</html>
