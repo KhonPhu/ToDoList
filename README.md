@@ -1,3 +1,10 @@
+# Cordova Plugin use
+
+> cordova plugin add cordova-plugin-dialogs
+
+> cordova plugin add cordova-plugincamera
+
+
 # index.html
 
 ```html
